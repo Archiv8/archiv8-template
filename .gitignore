@@ -1,0 +1,189 @@
+### Archiv8 gitignore
+### Version 0.1.1
+### Date 23/04/2019
+
+# Backup
+# ======
+
+## Files
+## -----
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+*~
+
+# ============================================================================ #
+# ============================================================================ #
+
+# Compression formats
+# ===================
+
+## Archives
+## --------
+*.bzip
+*.bz2
+*.gz
+*.jar
+*.lzma
+*.rar
+*.tar
+*.tar.*
+*.tgz
+*.xz
+*.zip
+*.7z
+
+## Package management and installation formats
+## -------------------------------------------
+*.cab
+*.dmg
+*.exe
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+
+## Data image formats
+## ------------------
+*.iso
+
+# ============================================================================ #
+# ============================================================================ #
+
+# Editors and IDEs
+# ================
+
+## Emacs
+## -----
+# -*- mode: gitignore; -*-
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# network security
+/network-security.data
+
+## Vim
+## ---
+### https://raw.github.com/github/gitignore//Global/Vim.gitignore
+
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+
+# Temporary
+.netrwhist
+
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+### https://raw.github.com/github/gitignore//Global/Kate.gitignore
+
+## Kate
+## ----
+# Swap Files #
+.*.kate-swp
+.swp.*
+
+# ============================================================================ #
+# ============================================================================ #
+# Logging
+# =======
+
+## Log files
+## ---------
+*.log
+*.log.*
+
+# ============================================================================ #
+# ============================================================================ #
+
+# Packaging
+# =========
+
+## Directories
+## -----------
+pkg/
+src/
+
+# ============================================================================ #
+# ============================================================================ #
+
+# Security
+# ========
+
+## Integrity
+## ---------
+*.sig
+
+# ============================================================================ #
+# ============================================================================ #
+
+# Linux specific
+# ==============
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*

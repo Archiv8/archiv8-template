@@ -1,0 +1,21 @@
+# LINE ENDINGS
+# ============
+
+# Default behavior for cases when users don't have core.autocrlf set
+# ------------------------------------------------------------------
+
+* text=auto eol=lf
+
+
+# Text files that need to be explicitly declared
+# ----------------------------------------------
+
+
+
+# Binary files that need to the explicitly declared
+# -------------------------------------------------
+
+# WHITESPACE
+# ==========
+
+* text whitespace=blank-at-eol,space-before-tab,-indent-with-non-tab,tab-in-indent,tab-in-indent,tabwidth=2

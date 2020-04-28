@@ -1,0 +1,11 @@
+# Rules for ShellCheck, https://www.shellcheck.net/, when checking PKGBUILD
+# ============================================================================
+
+# Set shell to bash
+shell=bash
+
+# Don't verify use or use export on variables that seem unused
+disable=SC2034
+
+# Don't alert for variables that are referenced but not assigned
+disable=SC2154
