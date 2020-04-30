@@ -23,4 +23,4 @@
 # WHITESPACE
 # ==========
 
-* text whitespace=blank-at-eol,space-before-tab,-indent-with-non-tab,tab-in-indent,tab-in-indent,tabwidth=2
+* text whitespace=blank-at-eol,blank-at-eof,space-before-tab,-indent-with-non-tab,tab-in-indent,cr-at-eol,tabwidth=2

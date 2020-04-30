@@ -1,11 +1,26 @@
-# Rules for ShellCheck, https://www.shellcheck.net/, when checking PKGBUILD
-# ============================================================================
+### Archiv8 gitignore
+### Version 0.1.1
+### Date 23/04/2019
+### Last Update 28/04/2020
 
-# Set shell to bash
+# Rules for ShellCheck, https://www.shellcheck.net/, when checking PKGBUILD
+# =============================================================================
+
+## Set shell to bash
+## -----------------------------------------------------------------------------
 shell=bash
 
-# Don't verify use or use export on variables that seem unused
+## Don't verify use or use export on variables that seem unused
+## https://github.com/koalaman/shellcheck/wiki/SC2034
+## -----------------------------------------------------------------------------
 disable=SC2034
 
-# Don't alert for variables that are referenced but not assigned
+## Don't alert for variables that are referenced but not assigned
+## https://github.com/koalaman/shellcheck/wiki/SC2154
+## -----------------------------------------------------------------------------
 disable=SC2154
+
+## Don't alert for "cd || " as pacman makepkg handles this
+## https://github.com/koalaman/shellcheck/wiki/SC2164
+## -----------------------------------------------------------------------------
+disable=SC2164

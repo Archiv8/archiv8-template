@@ -1,12 +1,12 @@
 ### Archiv8 gitignore
-### Version 0.1.1
+### Version 0.1.2
 ### Date 23/04/2019
-### Last Update 28/04/2020
+### Last Update 30/04/2020
 
-# Backup
+# BACKUP
 # ======
 
-## Files
+## FILES
 ## -----
 *.bak
 *.gho
@@ -18,7 +18,7 @@
 # ============================================================================ #
 # ============================================================================ #
 
-# Compression formats
+# COMPRESSION FORMATS
 # ===================
 
 ## Archives
@@ -36,7 +36,11 @@
 *.zip
 *.7z
 
-## Package management and installation formats
+## DATA IMAGE FORMATS
+## ------------------
+*.iso
+
+## PACKAGE MANAGEMENT AND INSTALLATION FORMATS
 ## -------------------------------------------
 *.cab
 *.dmg
@@ -50,19 +54,17 @@
 *.msm
 *.msp
 
-## Data image formats
-## ------------------
-*.iso
-
 # ============================================================================ #
 # ============================================================================ #
 
-# Editors and IDEs
+# EDITORS AND IDES
 # ================
 
-## Emacs
+## EMACS
 ## -----
-# -*- mode: gitignore; -*-
+
+### -*- mode: gitignore; -*-
+### ------------------------
 \#*\#
 /.emacs.desktop
 /.emacs.desktop.lock
@@ -71,78 +73,99 @@ auto-save-list
 tramp
 .\#*
 
-# Org-mode
+### Org-mode
+### -------
 .org-id-locations
 *_archive
 
-# flymake-mode
+### flymake-mode
+### ------------
 *_flymake.*
 
-# eshell files
+### eshell files
+### ------------
 /eshell/history
 /eshell/lastdir
 
-# elpa packages
+### elpa packages
+### -------------
 /elpa/
 
-# reftex files
+### reftex files
+### ------------
 *.rel
 
-# AUCTeX auto folder
+### AUCTeX auto folder
+### ------------------
 /auto/
 
-# cask packages
+### cask packages
+### -------------
 .cask/
 dist/
 
-# Flycheck
+### Flycheck
+### --------
 flycheck_*.el
 
-# server auth directory
+### server auth directory
+### ---------------------
 /server/
 
-# projectiles files
+### projectiles files
+### -----------------
 .projectile
 
-# directory configuration
+### directory configuration
+### -----------------------
 .dir-locals.el
 
-# network security
+### network security
 /network-security.data
 
-## Vim
-## ---
-### https://raw.github.com/github/gitignore//Global/Vim.gitignore
+#----------------------------------------------------------------------------- #
 
-# Swap
+## KATE
+## ----
+
+### Swap Files
+### ----------
+.*.kate-swp
+.swp.*
+
+#----------------------------------------------------------------------------- #
+
+## VIM
+## ---
+
+### Swap
+### ----
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]
 [._]s[a-rt-v][a-z]
 [._]ss[a-gi-z]
 [._]sw[a-p]
 
-# Session
+### Session
+### -------
 Session.vim
 
-# Temporary
+### Temporary
+### ---------
 .netrwhist
 
-# Auto-generated tag files
+### Auto-generated tag files
+### ------------------------
 tags
-# Persistent undo
+
+### Persistent undo
+### ---------------
 [._]*.un~
 
-### https://raw.github.com/github/gitignore//Global/Kate.gitignore
-
-## Kate
-## ----
-# Swap Files #
-.*.kate-swp
-.swp.*
-
 # ============================================================================ #
 # ============================================================================ #
-# Logging
+
+# LOGGING
 # =======
 
 ## Log files
@@ -153,10 +176,10 @@ tags
 # ============================================================================ #
 # ============================================================================ #
 
-# Packaging
+# PACKAGING
 # =========
 
-## Directories
+## DIRECTORIES
 ## -----------
 pkg/
 src/
@@ -164,20 +187,23 @@ src/
 # ============================================================================ #
 # ============================================================================ #
 
-# Security
+# SECURITY
 # ========
 
-## Integrity
+## INTEGRITY
 ## ---------
 *.sig
 
 # ============================================================================ #
 # ============================================================================ #
 
-# Linux specific
-# ==============
+# OPERATING SYSTEMS
+# =================
 
-# temporary files which can be created if a process still has a handle open of a deleted file
+## LINUX
+## -----
+
+### Temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
 
 # KDE directory preferences
